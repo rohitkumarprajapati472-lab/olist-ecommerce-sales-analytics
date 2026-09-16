@@ -18,6 +18,9 @@ The project combines:
 The final outcome is an interactive **E-Commerce Sales & Customer Analytics Dashboard** designed to provide an executive-level view of business performance.
 
 ---
+## 📊 Dashboard Preview
+
+![Olist E-Commerce Sales & Customer Analytics Dashboard](dashboard.png)
 
 ## 🎯 Project Objectives
 
