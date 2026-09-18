@@ -1,112 +1,112 @@
-# Olist E-Commerce Sales & Customer Analytics
+# 🛒 Olist E-Commerce Sales & Customer Analytics
 
-An end-to-end data analytics project using the Olist Brazilian E-Commerce dataset to analyze sales performance, customer behavior, product performance, geographical trends, and delivery experience through Python and Power BI.
+### End-to-End Data Analytics Project | Python • SQL Concepts • Power BI • DAX
 
----
+An end-to-end e-commerce analytics project built using the **Olist Brazilian E-Commerce dataset** to transform raw transactional data into actionable business insights.
 
-## 📌 Project Overview
-
-E-commerce businesses generate large volumes of data across orders, customers, products, payments, reviews, and deliveries. Converting this raw data into meaningful business insights can help organizations understand customer behavior, monitor sales performance, identify high-performing products, and improve customer satisfaction.
-
-This project analyzes the Olist Brazilian E-Commerce dataset and transforms multiple raw datasets into a structured analytical dataset.
-
-The project combines:
-
-- **Python** for data cleaning, preprocessing, feature engineering, and exploratory data analysis
-- **Power BI** for data modeling, DAX calculations, interactive visualization, and dashboard development
-
-The final outcome is an interactive **E-Commerce Sales & Customer Analytics Dashboard** designed to provide an executive-level view of business performance.
+The project covers the complete analytics workflow — from **data profiling and preprocessing in Python** to **data modeling, DAX measures, interactive visualizations, and business intelligence reporting in Power BI**.
 
 ---
+
 ## 📊 Dashboard Preview
 
-![Olist E-Commerce Sales & Customer Analytics Dashboard](dashboard.png)
+![Olist E-Commerce Sales Analytics Dashboard](dashboard.png)
 
-## 🎯 Project Objectives
-
-The main objectives of this project are to:
-
-- Analyze overall e-commerce sales performance
-- Track revenue and order trends over time
-- Understand customer purchasing behavior
-- Identify one-time and repeat customers
-- Analyze customer value segments
-- Identify top-performing product categories
-- Analyze revenue distribution across Brazilian states
-- Evaluate delivery performance
-- Analyze customer review and satisfaction patterns
-- Build an interactive Power BI dashboard for business analysis
+> **Interactive Power BI dashboard designed to monitor sales performance, customer behavior, product performance, geography, and delivery experience.**
 
 ---
 
-## 📊 Dataset
+## 🎯 Business Problem
 
-The project uses the **Olist Brazilian E-Commerce Public Dataset**.
+E-commerce platforms generate large volumes of data across orders, customers, products, sellers, payments, reviews, and deliveries.
 
-The dataset contains approximately 100,000 orders and multiple related datasets covering different aspects of the e-commerce business.
+However, raw transactional data alone does not provide clear answers to important business questions such as:
+
+- How is revenue changing over time?
+- Which states generate the most revenue?
+- Who are the highest-value customers?
+- How important are repeat customers?
+- Which product categories contribute the most revenue?
+- Are delivery delays affecting customer satisfaction?
+- Which areas require operational attention?
+
+This project addresses these questions by converting multiple raw Olist datasets into a structured analytical solution.
+
+---
+
+# 🚀 Project Objectives
+
+The primary objectives of this project are to:
+
+- Analyze overall e-commerce sales performance
+- Monitor revenue and order trends
+- Understand customer purchasing behavior
+- Identify one-time and repeat customers
+- Segment customers based on order frequency and spending
+- Identify high-performing product categories
+- Analyze geographical revenue distribution
+- Measure delivery performance
+- Study the relationship between delivery experience and customer reviews
+- Build an interactive executive-level Power BI dashboard
+
+---
+
+# 🗂️ Dataset
+
+This project uses the **Olist Brazilian E-Commerce Public Dataset**.
+
+The dataset contains approximately **100K orders** and multiple relational datasets representing different aspects of an e-commerce business.
 
 ### Dataset Components
 
-| Dataset | Description |
+| Dataset | Purpose |
 |---|---|
-| Orders | Order status and order lifecycle timestamps |
-| Customers | Customer location and customer identifiers |
-| Order Items | Products purchased, prices, and freight values |
-| Payments | Payment methods, values, and installments |
+| Orders | Order lifecycle, status and timestamps |
+| Customers | Customer identifiers and locations |
+| Order Items | Products purchased, prices and freight |
+| Payments | Payment methods, values and installments |
 | Reviews | Customer review scores and feedback |
 | Products | Product attributes and categories |
 | Sellers | Seller information and locations |
-| Geolocation | Brazilian zip-code and geographical information |
-| Category Translation | Portuguese-to-English product category mapping |
+| Geolocation | Brazilian geographical information |
+| Category Translation | Portuguese-to-English category mapping |
 
 ---
 
-## 🛠️ Tools & Technologies
-
-### Programming & Data Analysis
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-
-### Business Intelligence
-
-- Microsoft Power BI
-- DAX
-- Power Query
-
-### Version Control
-
-- Git
-- GitHub
-
----
-
-## 🔄 Project Workflow
+# 🔄 Analytics Workflow
 
 ```text
 Raw Olist Datasets
-        ↓
+        │
+        ▼
 Data Loading
-        ↓
+        │
+        ▼
 Data Profiling
-        ↓
-Data Cleaning
-        ↓
+        │
+        ▼
+Data Cleaning & Validation
+        │
+        ▼
 Missing Value Treatment
-        ↓
+        │
+        ▼
 Feature Engineering
-        ↓
-Dataset Integration
-        ↓
+        │
+        ▼
+Dataset Aggregation
+        │
+        ▼
 Exploratory Data Analysis
-        ↓
+        │
+        ▼
 Business Insights
-        ↓
+        │
+        ▼
 Power BI Data Modeling
-        ↓
-DAX Measures
-        ↓
-Interactive Dashboard
+        │
+        ▼
+DAX Measures & Calculations
+        │
+        ▼
+Interactive DashboardS
